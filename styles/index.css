@@ -163,7 +163,7 @@ nav #signupbutn:hover{
     font-size: 40px !important;
     text-align:center;
     color:rgba(255, 255, 255, 0.836);
-    padding-bottom:10px;
+    padding-bottom:20px;
 }
 .about{
     display:flex;
