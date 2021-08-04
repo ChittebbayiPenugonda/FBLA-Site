@@ -5,18 +5,14 @@
 
 
 
-
+@media (min-height:800px){
+    .thirdevent{
+        display:block !important;
+    }
+}
 @media only screen and (orientation:landscape) {
-/* Animations */
-@keyframes head{
 
-    /*from{top:5vh; opacity:0.5;}
-    to{top:0px; opacity:1;}*/
-}
-@keyframes nav{
-    from{border-bottom:none;}
-    to{border-bottom: 5px solid white}
-}
+
 html{
     scroll-behavior: smooth;
 }
@@ -45,6 +41,7 @@ nav{
     width:100%;
     font-family: nunito;
     z-index:1;
+
 }
 #othernav{
     display:none;
@@ -122,76 +119,62 @@ nav #signupbutn:hover{
 #home{
     height: 100vh;
     display:flex;
-    flex-direction:row;
-    justify-content:center;
+    flex-direction:column;
     width:100%;
 }
-#home section{
+#home > section{
     display:flex;
-    flex-direction:column;
-    justify-content:center;
+    flex-direction:row;
+    justify-content:space-between;
     font-family: roboto;
     position:relative;
     animation-name:head;
     animation-duration:1s;
+    margin-top:10vh;
 
 }
-#home section h1{
+#home > section > section p{
+    font-family: roboto;
+    color:white;
+    font-size: 20px;
+}
+#home .basic{
+    width:50vw;
+    padding:15px;
+    height:85vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+#home>section >section h1{
     color: rgba(255, 255, 255, 0.959);
-    text-align: center;
-    font-size: 5vw;
+    font-size: 7vw;
     font-family:STIX Two Math;
     margin:0;
 }
-#home section p{
-    color: rgb(201, 201, 201);
-    text-align: center;
-}
-#home section .desc{
+#home .eventss{
     width:50vw;
-
-}
-#home .descwrap{
-    width: 100vw;
+    padding:15px;
+    padding-top:30px;
     display:flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction:column;
 }
-#home .sign{
-    width:100%;
-    display:flex;
-    flex-direction:row;
-    justify-content: center;
-
-    margin-top:1%;
-}
-.sign a{
-    text-decoration:none;
-    color:white;
-    background-color:#9a0000;
-    padding: 10px;
-    padding-left: 19.9px;
-    padding-right:20.1px;
-    font-size:95%;
-    border-radius:50px;
-}
-.sign a:hover{
-    text-decoration:none;
-    color:white;
-    background-color:#9a0000ce;
-    padding: 10px;
-    padding-left: 19.9px;
-    padding-right:20.1px;
-    border-radius:50px;
+.eventss h1{
+    font-size: 40px !important;
+    text-align:center;
+    color:rgba(255, 255, 255, 0.836);
+    padding-bottom:10px;
 }
 .about{
     display:flex;
     flex-direction:column;
-    background-color:rgb(11, 23, 43);
+    background-color:rgb(90, 145, 255);
     padding:15px;
     background: linear-gradient(rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.801) ),
      url('../img/aboutbackgroundpic.jpg');
     background-size: cover; 
+
+    border-top:4px solid #132e58;
 }
 .about .header{
     display:flex;
@@ -200,7 +183,7 @@ nav #signupbutn:hover{
 }
 .about h1{
     font-family:STIX Two Math;
-    color:rgba(255, 255, 255, 0.849);
+    color:rgba(255, 255, 255, 0.901);
     font-size: 45px;
     position:relative;
     margin-bottom:0;
@@ -213,7 +196,6 @@ nav #signupbutn:hover{
 .about div{
     display:flex;
     flex-direction:column;
-    width:40vw;
 }
 .about div h4{
     background-color:#0c1c36;
@@ -224,14 +206,60 @@ nav #signupbutn:hover{
     font-size:20px;
     margin-bottom:0
 }
+.about div section{
+    height:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    background-color:#132e58;
+}
+.about div ul{
+    background-color:#132e58;
+    margin:0;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    font-family:roboto;
+    font-size: 15px;
+    color:rgba(255, 255, 255, 0.603);
+}
+.aboutdiv{
+    width: 50vw;
+}
+.otherdiv{
+    width:30vw;
+}
+.about .bottom{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+.about .bottom h4{
+    background-color:#0c1c36;
+    color:white;
+    text-align:center;
+    font-family:nunito;
+    font-size: 20px;
+    padding:10px;
+    margin-bottom: 0;
+    margin-top: 20px !important;
+    width:940px;
+    margin: 0 auto;
+}
+.about iframe{
+    width:960px;
+    margin:0 auto;
+    margin-bottom: 15px;
+}
 .about div p{
     font-family:roboto;
     font-size: 15px;
-    color:rgba(0, 0, 0, 0.829);
     color:rgba(255, 255, 255, 0.603);
     background-color:#132e58;
     margin:0;
     padding:10px;
+    line-height: 2;
 }
 .about p{
     font-family:roboto;
@@ -386,6 +414,7 @@ nav #signupbutn:hover{
  #events{
      display:flex;
      flex-direction:column;
+     border-top: 4px solid #132e58;
  }
  #events .header{
      display:flex;
@@ -399,7 +428,7 @@ nav #signupbutn:hover{
     font-family: STIX Two Math;
     font-size: 40px;
     color:rgba(255, 255, 255, 0.884);
-    border-bottom: 5px solid #9a0000;
+
 }
 .eventswrap{display:flex; flex-direction:row;justify-content:center;width:100%;}
 #events .event{
@@ -409,24 +438,24 @@ nav #signupbutn:hover{
     margin-top:5vw;
     margin-bottom:5vw;
 }
-.event img{
-    width:20%;
-    border-radius: 10px 0 0 10px;
+.event{
+    margin: 10px;
 }
 .event .det{
-    background-color:rgb(8, 8, 34);
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
+    background-color:#132e58;
+    border-radius:10px;
 }
-
+.event .signupgeniusbutn{
+    background-color:#F39C12 !important;
+}
 .event .eventh{
     display:flex;
     flex-direction:row;
     justify-content: space-between;
     padding: 10px;
     padding-top:15px;
-    background-color:rgb(5, 5, 20);
-    border-radius: 0 10px 0px 0px;
+    background-color:#0c1c36;
+    border-radius: 10px 10px 0px 0px;
 }
 .event h4{
     color: rgba(255, 255, 255, 0.815);
@@ -452,20 +481,22 @@ nav #signupbutn:hover{
     color:rgba(255, 255, 255, 0.384);
     margin:14px;
     margin-bottom:22px;
+    height: 49px;
+    font-size:15px !important;
+}
+.thirdevent{
+    display:none;
 }
 .event a{
     padding:10px;
     font-family:roboto;
-    background-color: #9a0000;
+    background-color:  #27AE60;
     color:white;
     border-radius: 50px;
     margin: 12px;
     font-size: 14px;
-}
-.event a:hover{
-
-    background-color: #6e0808;
-
+    cursor:pointer;
+    text-decoration:none;
 }
  #education{
      padding: 2%;
