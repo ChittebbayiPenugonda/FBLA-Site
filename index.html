@@ -1,0 +1,173 @@
+
+<html>
+    <head>
+        <link rel="apple-touch-icon" sizes="180x180" href="img/logotransparent.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="img/logotransparent.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/logotransparent.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        <title>Asian Student Association</title>
+        <link rel="stylesheet" type="text/css" href="styles/index.css">
+        <script src="https://kit.fontawesome.com/df7e7c41fe.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav>
+            <div class="first">
+                <img src="img/logo.jpg">
+                <section class="cent">ASIAN STUDENT ASSOCIATION</section>
+            </div>
+            <div class="second">
+                <section class="cent"><a class="navele" href="#home">HOME</a></section>
+                <section class="cent"><a class="navele" href="#aboutnav">ABOUT</a></section>
+                <section class="cent"><a class="navele" href="#eventslink">EVENTS</a></section>
+                <section class="cent"><a class="navele" href="#educationlink">EDUCATION</a></section>
+                <section class="cent"><a class="navele" href="#contactlinkur">CONTACT</a></section>
+                <section class="cent"><a id="signupbutn" href="#signupbtnlink">SIGN UP</a></section>
+            </div>
+            <div class="third">
+                <i onclick="nav()" class="fas fa-bars"></i>
+            </div>
+            <script>
+                var down = false;
+                function nav(){
+                    
+                    if(down){
+                        down = false;
+                        document.getElementById("othernav").style.top = "-100vh";
+                        
+                    }else{
+                        down = true;
+                        document.getElementById("othernav").style.top = "10vh";
+                    }
+
+                }
+            </script>
+        </nav>
+        <div id="othernav">
+            <a href="#home" onclick="nav()">HOME</a>
+            <a href="#aboutnav" onclick="nav()">ABOUT</a>
+            <a href="#eventslink" onclick='nav()'>EVENTS</a>
+            <a href="#educationlink" onclick='nav()'>EDUCATION</a>
+            <a href="#contactlinkur" onclick='nav()'>CONTACT</a>
+            <a id="signupbutn" onclick='nav()' href="#signupbtnlink">SIGN UP</a>
+        </div>
+        <div id="home"style="background: linear-gradient( rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.767) ), url('img/background1.jpg'); background-size: cover; ">
+            <section>
+                <h1>Asian Student Association</h1>
+                <section class="descwrap">
+                <section class="desc">
+                <p>Join Today !!!</p>
+                </section>
+                
+                </section>
+                <section class="sign">
+                <a href="#signupbtn">SIGN UP</a>
+                </section>
+            </section>
+
+        </div>
+        <div class="linkup" id="aboutnav">.</div>
+            <section id="about" class="about">
+                <section class="img">
+                    <img src="img/about.jpg">
+                </section>
+                <section id="content">
+                    <section id="push">
+                    <h1>About ASA</h1>
+                    <p>The Asian Student Association (ASA) at South Forsyth aims to create a diverse and welcoming community for Asian Students within the campus. ASA organizes various cultural, political-educational, and social events. We seek to promote a cultural and political awareness of Asian traditions and diversity in our community. We welcome any student who is interested in participating in the association's activities to help us achieve our mission and objectives.</p>
+                    </section>
+                </section>
+            </section>
+            <div class="linkup" id="eventslink">.</div>
+            <div id="events" style="background: linear-gradient(rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.801) ), url('img/background3.jpg'); background-size: cover; ">
+                <section class="header"><h1>Events</h1></section>
+                <section class="eventswrap">
+                    <div class="event">
+                        <img src="img/sofo.jpg">
+                        <section class="det">
+                            <div class="eventh"><h4>Sofopalooza</h4><section class="dt">Jul. 23, 2021 at 8:00am - 9:00am</section></div>
+
+                            <p>This is an event at South Forsyth High School. It is a great time to ask questions about ASA and gather details about joining the club.</p>
+                            <a>Learn More</a>
+                        </section>
+                    </div>
+                </section>
+            </div>
+            <div class="linkup" id="educationlink">.</div>
+            <div id="education" style="background: linear-gradient(rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.801) ), url('img/background2.jpg'); background-size: cover; ">
+                <section class="header"><h1>Education</h1></section>
+                <p>Coming Soon!</p>
+            </div>
+            <div class="linkup" id="contactlinkur">.</div>
+            <div id="contact">
+                <section class="stawrt">
+                    <h1>
+                        Contact Us
+                    </h1>
+                    <p class="des">Use email or direct message on social media.</p>
+                </section>
+                <section class="socials">
+                    <h4>
+                        Social Media
+                    </h4>
+                    <div class="awd">
+                    <div>
+                        <i class="fab fa-instagram" onclick="window.open('https://www.instagram.com/sfhs_asa/')"></i> 
+                    </div>
+                    <div>
+                        <i class="fab fa-twitter" onclick="alert('Coming soon!')"></i> 
+                    </div>
+                    <div>
+                        <i class="fab fa-facebook-f" onclick="alert('Coming soon!')"></i> 
+                    </div>
+                    <div>
+                        <i class="fab fa-linkedin-in" onclick="alert('Coming soon!')"></i> 
+                    </div>
+                </div>
+                </section>
+                <section class="email">
+                    <h4>Email </h4>
+                    <p>sfhsasa@gmail.com</p>
+                </section>
+            </div>
+            <div class="linkup" id="signupbtnlink">.</div>
+            <div id="signupbtn">
+
+
+                        <section class="header">
+                        <h1>Sign Up</h1>
+                        </section>
+                <form action="https://sheetdb.io/api/v1/1j2naoxplysrd" id="sheetdb-form" method="POST">
+                <input id="input1" name="data[firstname]" placeholder="First Name" class="first">
+                <input id="input2" name="data[lastname]" placeholder="Last Name">
+                <input id="input3"name="data[email]" placeholder="Preferred Email">
+                <input id="input4" placeholder="Phone Number" name="data[number]">
+                <button type="submit" >SUBMIT</button>
+                </form>
+
+
+                <script>
+                    var form = document.getElementById('sheetdb-form');
+                    form.addEventListener("submit", e => {
+                      e.preventDefault();
+                      fetch(form.action, {
+                          method : "POST",
+                          body: new FormData(document.getElementById("sheetdb-form")),
+                      }).then(
+                          response => response.json()
+                      ).then((html) => {
+                        // you can put any JS code here
+                        alert('success');
+                        document.getElementById("input1").value = "";
+                        document.getElementById("input2").value = "";
+                        document.getElementById("input3").value = "";
+                        document.getElementById("input4").value = "";
+            
+                      });
+                    });
+                    </script>
+            </div>
+            <footer>South Forsyth High School Asian Student Association</footer>
+    </body>
+</html>
