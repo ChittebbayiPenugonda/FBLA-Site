@@ -18,8 +18,9 @@
             </div>
             <div class="second">
                 <section class="cent"><a class="navele" href="#home">HOME</a></section>
-                <section class="cent"><a class="navele" href="#aboutnav">ABOUT</a></section>
                 <section class="cent"><a class="navele" href="#eventslink">EVENTS</a></section>
+                <section class="cent"><a class="navele" href="#aboutnav">ABOUT</a></section>
+                <section class="cent"><a class="navele" href="#eventslink">COMPETITION</a></section>
                 <section class="cent"><a class="navele" href="#contactlinkur">CONTACT</a></section>
                 <section class="cent"><a class="navele" href="#officerslinkur">OFFICERS</a></section>
                 <section class="cent"><a id="signupbutn" href="#signupbtnlink">SIGN UP</a></section>
@@ -47,16 +48,22 @@
             <a href="#home" onclick="nav()">HOME</a>
             <a href="#aboutnav" onclick="nav()">ABOUT</a>
             <a href="#eventslink" onclick='nav()'>EVENTS</a>
+            <a href="#eventslink" onclick='nav()'>COMPETITION</a>
             <a href="#contactlinkur" onclick='nav()'>CONTACT</a>
             <a href="#officerslinkur" onclick='nav()'>OFFICERS</a>
             <a id="signupbutn" onclick='nav()' href="#signupbtnlink">SIGN UP</a>
         </div>
-        <div id="home"style="background: linear-gradient( rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.767) ), url('img/night-view.jpg'); background-size: cover; ">
+        <div style="background: linear-gradient( rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.767) ), url('img/night-view.jpg'); background-size: cover; ">
+        <div id="home">
             <section>
-                <section class="basic">
+                <section>
                 <h1>South Forsyth FBLA</h1>
-                    <p>South Forsyth High School's FBLA Chapter</p>
+                    <p>The premier organization for South Forsyth's student leaders interested in careers in business.</p>
+                    <div>
+                        <a href="#eventslink"><i class="fas fa-arrow-down"></i></a>
+                    </div>
                 </section>
+                <!--
                 <section class="eventss">
                     <h1>Upcoming Events</h1>
                     <div class="event">
@@ -87,10 +94,19 @@
                             <a class="signupgeniusbutn" target="_blank" href="https://www.signupgenius.com/go/5080c44a5af23a2f85-backtoschool">Sign-Up Genius</a>
                         </section>
                     </div>
-                </section>
+                </section>-->
         </section>
         </div>
-        <div class="linkup" id="aboutnav">.</div>
+        
+            <div class="linkup" id="eventslink">.</div>
+            <div id="events">
+                <section class="header"><h1>Upcoming Events</h1></section>
+                <iframe src="events.html">
+
+                </iframe>
+            </div>
+        </div>
+            <div class="linkup" id="aboutnav">.</div>
             <section id="about" class="about">
                 <section class="header"><h1>About</h1></section>
                 <section class="middle">
@@ -123,11 +139,6 @@
                     <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTzC9_IrF-WXxS67WjCB3y49_2AhpbboTuRwVA-HgZtzYLcr5YVCvYGgCGBGpTeDiBl414u5mPtWaxw/embed?start=false&amp;loop=false&amp;delayms=15000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                 </section>
             </section>
-            <div class="linkup" id="eventslink">.</div>
-            <div id="events" style="background: linear-gradient(rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.801) ), url('img/background3.jpg'); background-size: cover; ">
-                <section class="header"><h1>Events</h1></section>
-
-            </div>
             <div class="linkup" id="educationlink">.</div>
             <div id="education" style="background: linear-gradient(rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.801) ), url('img/background2.jpg'); background-size: cover; ">
                 <section class="header"><h1>Education</h1></section>

@@ -117,7 +117,7 @@ nav #signupbutn:hover{
 }
 
 #home{
-    height: 100vh;
+
     display:flex;
     flex-direction:column;
     width:100%;
@@ -135,21 +135,41 @@ nav #signupbutn:hover{
 }
 #home > section > section p{
     font-family: roboto;
-    color:white;
+    color:rgba(255, 255, 255, 0.815);
     font-size: 20px;
+    text-align:center;
 }
-#home .basic{
-    width:50vw;
-    padding:15px;
+#home div{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+#home i{
+    background-color:#132e58;
+    padding:20px;
+    border-radius: 50%;
+    font-size: 20px;
+    color:white;
+    box-shadow: 0px 0px 5px 5px #000000c5;
+    cursor:pointer;
+    margin-top:25px;
+}
+#home i:hover{
+    background-color:#0c1c36;
+}
+#home section{
+    width:100vw;
+
     height:85vh;
     display:flex;
     flex-direction:column;
     justify-content:center;
 }
 #home>section >section h1{
-    color: rgba(255, 255, 255, 0.959);
-    font-size: 7vw;
+    color: rgba(255, 255, 255, 0.863);
+    font-size: 6vw;
     font-family:STIX Two Math;
+    text-align:center;
     margin:0;
 }
 #home .eventss{
@@ -414,7 +434,8 @@ nav #signupbutn:hover{
  #events{
      display:flex;
      flex-direction:column;
-     border-top: 4px solid #132e58;
+
+     height:100vh;
  }
  #events .header{
      display:flex;
@@ -423,7 +444,7 @@ nav #signupbutn:hover{
      width:100vw;
  }
  #events .header h1{
-    width:30vw;
+    width:100vw;
     text-align:center;
     font-family: STIX Two Math;
     font-size: 40px;
@@ -439,7 +460,8 @@ nav #signupbutn:hover{
     margin-bottom:5vw;
 }
 .event{
-    margin: 10px;
+    margin: 10px auto;
+    width:40vw;
 }
 .event .det{
     background-color:#132e58;
@@ -481,12 +503,20 @@ nav #signupbutn:hover{
     color:rgba(255, 255, 255, 0.384);
     margin:14px;
     margin-bottom:22px;
-    height: 49px;
+    height: 60px;
     font-size:15px !important;
+}
+#events iframe{
+    width:50vw;
+    margin: 0 auto;
+    margin-bottom:15px;
+    border:none;
+    height:90vh;
 }
 .thirdevent{
     display:none;
 }
+
 .event a{
     padding:10px;
     font-family:roboto;

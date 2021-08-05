@@ -1,13 +1,59 @@
 <html>
     <head>
         <style type="text/css">
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&family=Roboto:wght@300&display=swap');
 
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Roboto:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&family=Roboto:wght@300&family=STIX+Two+Math&display=swap');
+            body{
+                background-color:#0a1a33;
+            }
+            .event a{
+                padding:10px;
+                font-family:roboto;
+                background-color:  #27AE60;
+                color:white;
+                border-radius: 50px;
+                margin-top: 20px;
+                margin-left:20px;
+                font-size: 14px;
+                cursor:pointer;
+                text-decoration:none;
+
+            }
+            .event .signupgeniusbutn{
+                background-color:#F39C12 !important;
+            }
+            .location{
+                margin-bottom:50px;
+            }
+            .event{
+                background-color:#132e58;
+                padding-bottom: 49px;
+            }
+            .event h1{
+                margin:0;
+                background-color:#050d1a;
+                padding:20px;
+                color:rgba(255, 255, 255, 0.856);
+                font-family:STIX Two Math;
+            }
+            .dt, .desc, .location, .signupgeniusbutn{
+                padding-left:20px;
+                padding-right:20px;
+                color:rgba(255, 255, 255, 0.849);
+                font-family:nunito;
+            }
 
         </style>
     </head>
     <body>
-        <div class="event">
+        <div class="event" id="sofopalooza">
             <h1>Sofopalooza</h1>
+            <p class="dt">Aug. 30, 2021 at 6:00pm - 7:30pm</p>
+            <p class="desc">This is an event at South Forsyth High School. It is a great time to ask questions about FBLA and gather details about joining the club.</p>
+            <p class="location"><b>Location: </b>South Forysth High School, 585 Peachtree Pkwy, Cumming, GA 30041</p>
+            <a class="signupgeniusbutn" target="_blank" href="https://www.signupgenius.com/go/5080c44a5af23a2f85-backtoschool">Sign-Up Genius</a>
         </div>
     </body>
 </html>
