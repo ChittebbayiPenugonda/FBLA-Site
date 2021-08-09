@@ -711,7 +711,7 @@ nav #signupbutn:hover{
         display:flex;
         flex-direction:row;
         justify-content:space-between;
-        background-color:#9a0000;
+        background-color:#132e58;
         position:fixed;
         width:100%;
         font-family: nunito;
@@ -727,8 +727,10 @@ nav #signupbutn:hover{
         color:white;
     }
     .first img{
-        width:10vh;
-        height:10vh;
+        width: 8vh;
+        height:8vh;
+        padding: 1vh;
+        border-radius:50%;
     }
     nav .first .cent{
     display:none;
@@ -748,7 +750,7 @@ nav #signupbutn:hover{
         color: rgba(255, 255, 255, 0.856);
     }
     #othernav{
-        background-color:#750909;
+        background-color:#0c1c36;
         display:flex;
         flex-direction:column;
         position:fixed;
@@ -786,103 +788,171 @@ nav #signupbutn:hover{
         color:#ffffff;
 
     }
-    
-    .cent{
-        height:100%;
+    #home{
+
         display:flex;
         flex-direction:column;
-        justify-content: center;
+        width:100%;
     }
+    #home > section{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        font-family: roboto;
+        position:relative;
+        animation-name:head;
+        animation-duration:1s;
+        margin-top:10vh;
     
-    #home{
-        height: 100vh;
+    }
+    #home > section > section .list{
+        margin:50px auto;
+        width:80vw;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        color:rgba(255, 255, 255, 0.87);
+        white-space:wrap;
+    }
+    #home > section > section .li{
+        padding-left:10px;
+        padding-right:10px;
+        font-size:5vw;
+        white-space: nowrap;
+    }
+    #home div{
         display:flex;
         flex-direction:row;
         justify-content:center;
-        width:100%;
+    }
+    #home i{
+        background-color:#132e58;
+        padding:50px;
+        border-radius: 50%;
+        font-size: 50px;
+        color:white;
+        box-shadow: 0px 0px 5px 5px #00000048;
+        cursor:pointer;
+        margin-top:25px;
+    }
+    #home i:hover{
+        background-color:#0c1c36;
     }
     #home section{
+        width:100vw;
+    
+        height:85vh;
         display:flex;
         flex-direction:column;
         justify-content:center;
-        font-family: roboto;
-        width: 100vw;
     }
-    #home section h1{
-        color: rgba(255, 255, 255, 0.959);
-        text-align: center;
-        font-size: 12.5vw;
-        font-family:Times;
-        margin-top:15vh;
-    }
-    #home section p{
-        color: rgb(201, 201, 201);
-        text-align: center;
-        font-size: 5vw;
-    }
-    #home section .desc{
-        width:70vw;
-    
-    }
-    #home .descwrap{
-        width: 100vw;
-        display:flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-    #home .sign{
-        width:100%;
-        display:flex;
-        flex-direction:row;
-        justify-content: center;
-        margin-bottom: 10vh;
-        margin-top:4%;
-    }
-    .sign a{
-        text-decoration:none;
-        color:white;
-        background-color:#9a0000;
-        padding: 30px;
-        padding-left: 50px;
-        padding-right:50px;
-        font-size:5vw;
-        border-radius:100px;
+    #home>section >section h1{
+        color: rgba(255, 255, 255, 0.863);
+        font-size: 15vw;
+        font-family:STIX Two Math;
         text-align:center;
+        margin:0;
+        padding:1vw;
     }
-
+    
     .about{
         display:flex;
+        flex-direction:column;
+        background-color:rgb(90, 145, 255);
+        padding:15px;
+        background: linear-gradient(rgba(0, 0, 0, 0.863), rgba(0, 0, 0, 0.801) ),
+         url('../img/aboutbackgroundpic.jpg');
+        background-size: cover; 
+    
+        border-top:4px solid #132e58;
+    }
+    .about .header{
+        display:flex;
         flex-direction:row;
-        padding: 15px;
-        justify-content:space-around;
-        background-color: rgb(5, 5, 20);
-        color:rgba(255, 255, 255, 0.911);
-
-    }
-    .about .img{
-        display:none;
-    }
-    .about img{
-        width:100%;
+        justify-content:center;
     }
     .about h1{
+        font-family:STIX Two Math;
+        color:rgba(255, 255, 255, 0.901);
+        font-size: 45px;
+        position:relative;
+        margin-bottom:0;
+    
+    }
+    .about .middle{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+    }
+    .about div{
+        display:flex;
+        flex-direction:column;
+    }
+    .about div h4{
+        background-color:#0c1c36;
+        color:white;
         text-align:center;
-        font-family:Times;
-        font-size: 70px;
-        border-bottom: 5px solid #9a0000;
+        padding:10px;
+        font-family:nunito;
+        font-size:20px;
+        margin-bottom:0;
+        box-shadow: 0px 0px 5px 5px #00000048;
+    }
+    
+    
+    
+    .aboutdiv{
+        width: 80vw;
+      
+    }
+    
+    .about .otherdiv section{
+        box-shadow: 0px 5px 5px 5px #00000048;
+    }
+    .about .bottom{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+    }
+    .about .bottom h4{
+        background-color:#0c1c36;
+        color:white;
+        text-align:center;
+        font-family:nunito;
+        font-size: 20px;
+        padding:10px;
+        margin-bottom: 0;
+        margin-top: 20px !important;
+        width:940px;
+        margin: 0 auto;
+        box-shadow: 0px 0px 5px 5px #00000048;
+    }
+    .about iframe{
+        width:960px;
+        margin:0 auto;
+        margin-bottom: 15px;
+        box-shadow: 0px 0px 5px 5px #00000048;
+    }
+    .about div p{
+        font-family:nunito;
+        font-size: 18px;
+        color:rgba(255, 255, 255, 0.801);
+        margin:0;
+        padding:10px;
+        line-height: 1.75;
+        text-shadow: 0px 5px 5px 5px #00000048;
+    
     }
     .about p{
         font-family:roboto;
-        font-size: 40px;
+        font-size: 15px;
         color:rgba(0, 0, 0, 0.829);
         color:rgba(255, 255, 255, 0.603);
+        position:relative;
+        animation-name:head;
+        animation-duration:1s;
     }
-    .about #content{
-        width:67.5%;
-        display:flex;
-        flex-direction:column;
-        justify-content:center;
-    }
+    
     #contact{
         display:flex;
         flex-direction:column;
@@ -893,10 +963,11 @@ nav #signupbutn:hover{
     #contact section h1{
         font-family: Times;
         text-align: center;
-        font-size: 60px;
+        font-size: 70px;
         color:rgba(255, 255, 255, 0.829);
         border-bottom: 5px solid #9a0000;
         margin: auto;
+        padding:10px;
     }
     #contact .stawrt{
         width: 78vw;
@@ -925,11 +996,11 @@ nav #signupbutn:hover{
     #contact .socials i{
         background-color:rgb(207, 207, 214);
         color: rgb(5, 5, 20);
-        padding: 10px;
+        padding: 25px;
         border-radius: 50%;
         font-size: 87.5px;
-        width: 90px;
-        height: 90px;
+        width: 100px;
+        height: 100px;
         margin: 30px;
         text-align:center;
     }
@@ -949,22 +1020,24 @@ nav #signupbutn:hover{
         display:flex;
         flex-direction:row;
     }
-    #contact .email {
-        width: 78vw;
+    #contact .adviser {
+        width:78vw;
 
      }
-    #contact .email p{
-       font-size: 57px;
+    #contact .adviser p{
+       font-size: 35px;
        color: rgba(255, 255, 255, 0.473);
        text-align:center;
+       font-family:roboto;
     }
     #signupbtn{
         display:flex;
-        flex-direction:column;
-        justify-content:space-between;
+        flex-direction:row;
+        justify-content:flex-end;
         background-color: rgb(5, 5, 20);
         padding: 2%;
-        background: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.842)), url('../img/prathamgupta.jpg'); background-size: cover; 
+        background: linear-gradient(to left,rgb(5, 5, 20),rgba(5, 5, 20, 0.966),rgba(5, 5, 20, 0.753), rgba(5, 5, 20, 0.123) ), url('../img/prathamgupta.jpg');
+     background-size: cover; 
     }
     #signupbtn  .form{
         display:flex;
@@ -979,33 +1052,30 @@ nav #signupbutn:hover{
         display:flex;
         flex-direction:column;
         background-color:rgba(255, 255, 255, 0);
-        width: 60.1vw;
+        width: 20vw;
         margin-right: 5vw;
         margin-left: 5vw;
-        margin: 0 auto;
     }
     
     #signupbtn  h1{
         display:flex;
         flex-direction:column;
-        color:rgba(255, 255, 255, 0.658);
-        font-family: Times;
+        color:rgba(255, 255, 255, 0.534);
+        font-family: STIX Two Math;
         text-align: left;
-        font-size:59.9px;
+        font-size:60px;
         padding: 0px;
-        margin: 30px;
-        text-align:center;
-        border-bottom: 5px solid #9a0000;
+        margin: 15px;
+        margin-top:40%;
     
     }
     #signupbtn  form input{
        padding: 10px;
-       margin: 30 30 30 30px;
+       margin: 10 15 10 15px;
        border:none;
        background-color: transparent;
-       font-size: 45px;
         border-bottom: 1px solid rgba(255, 255, 255, 0.349);
-        color: rgba(255, 255, 255, 0.842);
+        color: rgba(255, 255, 255, 0.63);
     }
     #signupbtn  form input:focus{
         outline:none;
@@ -1013,137 +1083,283 @@ nav #signupbutn:hover{
      }
     
     #signupbtn  form button{
-        padding: 24px;
+        padding: 10px;
         margin: 15px;
         margin-top:25px;
         margin-bottom:20px;
         background-color:#9a0000;
         border:none;
-        color:rgba(255, 255, 255, 0.795);
+        color:white;
         border-radius: 50px;
-        font-size: 40px;
-        cursor: pointer;
+        cursor:pointer;
      }
     
      footer{
-         background-color:rgb(5, 5, 20);
+         background-color:#000000;
          padding: 10px;
          text-align: center;
          color: rgba(255, 255, 255, 0.493);
          font-family:nunito;
-         font-size: 30px;
+         font-size: 15.7px;
      }
-     #education{
-         padding: 2%;
-         background-color:rgb(5, 5, 20)
-     }
-    #education h1{
-        font-size: 61px;
-        font-family:Times;
+    
+     
+     #events{
+         display:flex;
+         flex-direction:column;
 
-        border-bottom: 5px solid #9a0000;
+     }
+     #events .header{
+         display:flex;
+         flex-direction:row;
+         justify-content:center;
+         width:100vw;
+     }
+     #events iframe{
+        padding-top:10px;
+        padding-bottom:10px;
+        background-color:#0a1a33;
+         box-shadow: 0px 0px 5px 5px #00000048;
+     }
+     #events .header h1{
+        width:100vw;
         text-align:center;
-        color: rgba(255, 255, 255, 0.836);
-        width:30vw;
+        font-family: STIX Two Math;
+        font-size: 50px;
+        color:rgba(255, 255, 255, 0.884);
+    
     }
-    #education p{
-        text-align:center;
-        color:rgba(255, 255, 255, 0.644);
-        font-size: 40px;
-        font-family:roboto;
-    }
-    #education .header{
+    .eventswrap{display:flex; flex-direction:row;justify-content:center;width:100%;}
+    #events .event{
         display:flex;
         flex-direction:row;
-        justify-content:center;
-        width:100%;
+        width: 80vw;
+        margin-top:5vw;
+        margin-bottom:5vw;
     }
-    #events{
+    .event{
+        margin: 10px auto;
+        width:40vw;
+    }
+    .event .det{
+        background-color:#132e58;
+        border-radius:10px;
+    }
+    .event .signupgeniusbutn{
+        background-color:#F39C12 !important;
+    }
+    .event .eventh{
+        display:flex;
+        flex-direction:row;
+        justify-content: space-between;
+        padding: 10px;
+        padding-top:15px;
+        background-color:#0c1c36;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .event h4{
+        color: rgba(255, 255, 255, 0.815);
+        font-size: 20px;
+        font-family:roboto;
+        margin:0px;
+    }
+    .event .dt{
         display:flex;
         flex-direction:column;
+        justify-content:center;
+        color:rgba(255, 255, 255, 0.301);
+        font-family:roboto;
+    
     }
-    #events .header{
+    .event .det{
+        padding-bottom: 20px;
+    }
+    .event .det p{
+    
+        padding-top:0px;
+        font-family:roboto;
+        color:rgba(255, 255, 255, 0.384);
+        margin:14px;
+        margin-bottom:22px;
+        height: 60px;
+        font-size:15px !important;
+    }
+    #events iframe{
+        width:50vw;
+        margin: 0 auto;
+        margin-bottom:15px;
+        border:none;
+        height:50vh;
+    }
+    .thirdevent{
+        display:none;
+    }
+    
+    .event a{
+        padding:10px;
+        font-family:roboto;
+        background-color:  #27AE60;
+        color:white;
+        border-radius: 50px;
+        margin: 12px;
+        font-size: 14px;
+        cursor:pointer;
+        text-decoration:none;
+    }
+    .competition{
+        display:flex;
+        flex-direction:column;
+        justify-content:space-around;
+        background: linear-gradient( rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.767) ), url('../img/competition.jpg'); background-size: cover; 
+        border-top:4px solid #132e58;
+    
+    }
+    .competition .left{
+        padding: 10px;
+    
+    
+    
+    }
+    .competition .left h1{
+        padding-top:20px;
+        text-align:center;
+        font-family: STIX Two Math;
+        font-size: 40px;
+        color:rgba(255, 255, 255, 0.884);
+    }
+    .competition .left p{
+        font-family:nunito;
+        font-size: 18px;
+        color:rgba(255, 255, 255, 0.801);
+        margin:0;
+        padding:10px;
+        line-height: 1.75;
+        text-shadow: 0px 5px 5px 5px #00000048;
+        width:80vw;
+        margin:0 auto;
+    }
+    .right{
+        display:flex;
+        flex-direction:column;
+        margin:10px;
+        width:80vw;
+        margin:0 auto;
+    }
+    .right header{
         display:flex;
         flex-direction:row;
-        justify-content:center;
-        width:100vw;
     }
-    #events .header h1{
-       width:30vw;
-       text-align:center;
-       font-family: STIX Two Math;
-       font-size: 60px;
-       color:rgba(255, 255, 255, 0.884);
-       border-bottom: 5px solid #9a0000;
-   }
-   .eventswrap{display:flex; flex-direction:row;justify-content:center;width:100vw;}
-   #events .event{
-       display:flex;
-       flex-direction:column;
-       width: 70vw;
-       margin-top:5vw;
-       margin-bottom:5vw;
-   }
-   .event img{
-       width:70vw;
-       border-radius: 10px 10px 0 0px;
-   }
-   .event .det{
-       background-color:rgb(8, 8, 34);
-       border-bottom-right-radius: 10px;
-       border-bottom-left-radius: 10px;
-   }
-   
-   .event .eventh{
-       display:flex;
-       flex-direction:column;
-       justify-content: space-between;
-       padding: 20px;
-       padding-top:15px;
-       background-color:rgb(5, 5, 20);
+    .right header div{
+        width:50%;
+        color:rgba(255, 255, 255, 0.897);
+        padding:10px;
+        font-family:nunito;
+        font-size:35px;
+        text-align:center;
+        cursor:pointer;
+    }
+    .right header .rlcbutton{
+        background-color:#132e58;
+    }
+    .right header .slcbutton{
+        background-color:#0c1c36;
+    }
+    .right .slc{
+        display:none;
+    }
+    .right .rlc{
+        display:block;
+    }
+    .competition .right section{
+        padding:10px;
+        background-color:#132e58;
+        margin-bottom:10px;
+    }
+    .competition .right section ul{
+        background-color:#11274df5;
+        margin:0;
+        padding-top:15px;
+        padding-bottom:15px;
+        height:50vh;
+        overflow-y:auto;
+        overflow-x:wrap;
+        font-size:15px;
+        color:rgba(255, 255, 255, 0.685);
+    
+    }
+    .competition .right section a{
+        text-decoration:none;
+        color:rgba(255, 255, 255, 0.904);
+        font-family: nunito;
+        font-size:17px;
+    }
+    .competition .right section a:hover{
+    
+        color:rgba(255, 255, 255, 0.527);
+    
+    }
+                /* width */
+                .competition .right section ul::-webkit-scrollbar {
+                    width: 10px;
+                    }
+        
+                    /* Track */
+                    .competition .right section ul::-webkit-scrollbar-track {
+                    background: #0a1a33;
+                    }
+        
+                    /* Handle */
+                    .competition .right section ul::-webkit-scrollbar-thumb {
+                    background: #888;
+                    }
+        
+                    /* Handle on hover */
+                    .competition .right section ul::-webkit-scrollbar-thumb:hover {
+                    background: #555;
+                    }
+    #officers{
+        background: linear-gradient( rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.767) ), url('../img/business.jpg'); background-size: cover; 
+        border-top: 4px solid #132e58;
+    
+    
+    }
+    .officerwrap{
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    
+    }
+    
+    #officers > h1{
+        padding-top:20px;
+        text-align:center;
+        font-family: STIX Two Math;
+        font-size: 45px;
+        color:rgba(255, 255, 255, 0.884);
+    }
+    #officers .officer{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
 
-   }
-   .event h4{
-       color: rgba(255, 255, 255, 0.815);
-       font-size: 40px;
-       font-family:roboto;
-       margin:0px;
-   }
-   .event .dt{
-       display:flex;
-       flex-direction:column;
-       justify-content:center;
-       color:rgba(255, 255, 255, 0.301);
-       font-family:roboto;
-       font-size: 30px;
-   
-   }
-   .event .det{
-       padding-bottom: 41px;
-   }
-   .event .det p{
-   
-       padding-top:0px;
-       font-family:roboto;
-       color:rgba(255, 255, 255, 0.384);
-       margin:20px;
-       margin-bottom:30px;
-       font-size: 30px;
-   }
-   .event a{
-       padding:10px;
-       padding-left:20px;
-       padding-right:20px;
-       font-family:roboto;
-       background-color: #9a0000;
-       color:white;
-       border-radius: 50px;
-       margin: 20px;
-       font-size: 28px;
-   }
-   .event a:hover{
-   
-       background-color: #6e0808;
-   
-   }
+        margin: 30px auto;
+    
+    }
+    #officers .officer .name{
+        font-family:roboto !important;
+        color:rgba(255, 255, 255, 0.856);
+        font-size:4vw;
+        text-align:center;
+        border-bottom: 5px solid #0a1a33;
+        padding-bottom: 10px;
+    }
+    #officers .officer .position{
+        font-family:roboto !important;
+        color:rgba(255, 255, 255, 0.733);
+        font-size:3vw;
+        text-align:center;
+        margin:0;
+    }
+
 }
