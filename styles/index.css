@@ -185,7 +185,7 @@ nav #signupbutn:hover{
     flex-direction:column;
     background-color:rgb(90, 145, 255);
     padding:15px;
-    background: linear-gradient(rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.801) ),
+    background: linear-gradient(rgba(0, 0, 0, 0.863), rgba(0, 0, 0, 0.801) ),
      url('../img/aboutbackgroundpic.jpg');
     background-size: cover; 
 
@@ -223,36 +223,14 @@ nav #signupbutn:hover{
     margin-bottom:0;
     box-shadow: 0px 0px 5px 5px #00000048;
 }
-.about div section{
-    height:100%;
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
-    background-color:#132e58;
-    
-}
 
-.about div ul{
-    background-color:#132e58;
-    margin:0;
-    height:100%;
-    display:flex;
-    flex-direction:column;
-    justify-content:space-around;
-    font-family:roboto;
-    font-size: 15px;
-    color:rgba(255, 255, 255, 0.603);
-    
-}
+
+
 .aboutdiv{
-    width: 50vw;
+    width: 80vw;
   
 }
-.otherdiv{
-    width:30vw;
 
-
-}
 .about .otherdiv section{
     box-shadow: 0px 5px 5px 5px #00000048;
 }
@@ -281,14 +259,13 @@ nav #signupbutn:hover{
     box-shadow: 0px 0px 5px 5px #00000048;
 }
 .about div p{
-    font-family:roboto;
-    font-size: 15px;
-    color:rgba(255, 255, 255, 0.603);
-    background-color:#132e58;
+    font-family:nunito;
+    font-size: 18px;
+    color:rgba(255, 255, 255, 0.801);
     margin:0;
     padding:10px;
-    line-height: 2;
-    box-shadow: 0px 5px 5px 5px #00000048;
+    line-height: 1.75;
+    text-shadow: 0px 5px 5px 5px #00000048;
 
 }
 .about p{
@@ -306,13 +283,13 @@ nav #signupbutn:hover{
     flex-direction:row;
     justify-content:space-between;
     padding: 5vh;
-    background-color:rgb(5, 5, 20)
+    background-color: #050505fb;
 }
 #contact section h1{
     font-family: STIX Two Math;
     font-size: 34px;
     color:rgba(255, 255, 255, 0.829);
-    border-bottom: 5px solid #9a0000;
+    border-bottom: 5px solid #132e58;
 }
 #contact .stawrt{
     width: 30vw;
@@ -353,21 +330,17 @@ nav #signupbutn:hover{
 #contact .socials .fa-twitter{
     background-color:	#1DA1F2 !important;
 }
-#contact .socials .fa-facebook-f{
-    background-color:	#4267B2 !important;
-}
-#contact .socials .fa-linkedin-in{
-    background-color:#0077B5 !important;
-}
+
 #contact .socials .awd{
     display:flex;
     flex-direction:row;
 }
 
-#contact .email p{
-   font-size: 18px;
+#contact .adviser p{
+   font-size: 17px;
    color: rgba(255, 255, 255, 0.473);
    width: 30vw;
+   font-family:nunito;
 }
 #signupbtn{
     display:flex;
@@ -434,13 +407,15 @@ nav #signupbutn:hover{
  }
 
  footer{
-     background-color:rgb(5, 5, 20);
+     background-color:#000000;
      padding: 10px;
      text-align: center;
      color: rgba(255, 255, 255, 0.493);
      font-family:nunito;
      font-size: 15.7px;
  }
+
+ 
  #events{
      display:flex;
      flex-direction:column;
@@ -546,17 +521,16 @@ nav #signupbutn:hover{
 }
 .competition{
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
     justify-content:space-around;
     background: linear-gradient( rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.767) ), url('../img/competition.jpg'); background-size: cover; 
     border-top:4px solid #132e58;
 
 }
 .competition .left{
-    width:40vw;
-    height:100%;
-    display:flex;
-    flex-direction:column;
+    padding: 10px;
+
+
 
 }
 .competition .left h1{
@@ -566,50 +540,76 @@ nav #signupbutn:hover{
     font-size: 40px;
     color:rgba(255, 255, 255, 0.884);
 }
-.competition .left h4{
-    font-family:roboto;
-    font-size:17px;
-    color:rgba(255, 255, 255, 0.733);
-    font-weight:100;
+.competition .left p{
+    font-family:nunito;
+    font-size: 18px;
+    color:rgba(255, 255, 255, 0.801);
+    margin:0;
+    padding:10px;
+    line-height: 1.75;
+    text-shadow: 0px 5px 5px 5px #00000048;
+    width:80vw;
+    margin:0 auto;
 }
-.competition .right{
+.right{
+    display:flex;
+    flex-direction:column;
+    margin:10px;
+    width:80vw;
+    margin:0 auto;
+}
+.right header{
     display:flex;
     flex-direction:row;
 }
-.competition .right > section{
-    width:20vw;
-    margin:10px;
-}
-.competition .right header h4{
-    background-color:#0c1c36;
-    color:white;
+.right header div{
+    width:50%;
+    color:rgba(255, 255, 255, 0.897);
+    padding:10px;
+    font-family:nunito;
+    font-size:18px;
     text-align:center;
-    padding:10px;
-    font-family:nunito;
-    font-size:20px;
-    margin-bottom:0;
-    box-shadow: 0px 0px 5px 5px #00000048;
+    cursor:pointer;
 }
-.competition .right .slc p{
+.right header .rlcbutton{
+    background-color:#132e58;
+}
+.right header .slcbutton{
     background-color:#0c1c36;
-    color:rgba(255, 255, 255, 0.788);
+}
+.right .slc{
+    display:none;
+}
+.right .rlc{
+    display:block;
+}
+.competition .right section{
     padding:10px;
-    font-family:nunito;
-    font-size:1.8vh;
-    text-align:initial;
-    margin:0;
-
+    background-color:#132e58;
+    margin-bottom:10px;
 }
 .competition .right section ul{
-    background-color:#132e58;
+    background-color:#102549;
     margin:0;
     padding-top:15px;
     padding-bottom:15px;
-    height:90vh;
+    height:50vh;
     overflow-y:auto;
     overflow-x:wrap;
     font-size:15px;
     color:rgba(255, 255, 255, 0.685);
+
+}
+.competition .right section a{
+    text-decoration:none;
+    color:rgba(255, 255, 255, 0.904);
+    font-family: nunito;
+    font-size:17px;
+}
+.competition .right section a:hover{
+
+    color:rgba(255, 255, 255, 0.527);
+
 }
             /* width */
             .competition .right section ul::-webkit-scrollbar {
@@ -630,6 +630,50 @@ nav #signupbutn:hover{
                 .competition .right section ul::-webkit-scrollbar-thumb:hover {
                 background: #555;
                 }
+#officers{
+    background: linear-gradient( rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.767) ), url('../img/business.jpg'); background-size: cover; 
+    border-top: 4px solid #132e58;
+
+
+}
+.officerwrap{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+
+}
+
+#officers > h1{
+    padding-top:20px;
+    text-align:center;
+    font-family: STIX Two Math;
+    font-size: 40px;
+    color:rgba(255, 255, 255, 0.884);
+}
+#officers .officer{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    width:20vw;
+    margin: 30px auto;
+
+}
+#officers .officer .name{
+    font-family:roboto;
+    color:rgba(255, 255, 255, 0.856);
+    font-size:25px;
+    text-align:center;
+    border-bottom: 5px solid #0a1a33;
+    padding-bottom: 10px;
+}
+#officers .officer .position{
+    font-family:roboto;
+    color:rgba(255, 255, 255, 0.733);
+    font-size:20px;
+    text-align:center;
+    margin:0;
+}
 }
 
 
