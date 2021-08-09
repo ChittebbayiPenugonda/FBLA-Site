@@ -41,7 +41,7 @@ nav{
     width:100%;
     font-family: nunito;
     z-index:1;
-
+    box-shadow: 0px 5.2px 5px 5px #00000048;
 }
 #othernav{
     display:none;
@@ -207,6 +207,7 @@ nav #signupbutn:hover{
     font-size: 45px;
     position:relative;
     margin-bottom:0;
+
 }
 .about .middle{
     display:flex;
@@ -224,7 +225,8 @@ nav #signupbutn:hover{
     padding:10px;
     font-family:nunito;
     font-size:20px;
-    margin-bottom:0
+    margin-bottom:0;
+    box-shadow: 0px 0px 5px 5px #00000048;
 }
 .about div section{
     height:100%;
@@ -232,7 +234,9 @@ nav #signupbutn:hover{
     flex-direction:row;
     justify-content:center;
     background-color:#132e58;
+    
 }
+
 .about div ul{
     background-color:#132e58;
     margin:0;
@@ -243,12 +247,19 @@ nav #signupbutn:hover{
     font-family:roboto;
     font-size: 15px;
     color:rgba(255, 255, 255, 0.603);
+    
 }
 .aboutdiv{
     width: 50vw;
+  
 }
 .otherdiv{
     width:30vw;
+
+
+}
+.about .otherdiv section{
+    box-shadow: 0px 5px 5px 5px #00000048;
 }
 .about .bottom{
     display:flex;
@@ -266,11 +277,13 @@ nav #signupbutn:hover{
     margin-top: 20px !important;
     width:940px;
     margin: 0 auto;
+    box-shadow: 0px 0px 5px 5px #00000048;
 }
 .about iframe{
     width:960px;
     margin:0 auto;
     margin-bottom: 15px;
+    box-shadow: 0px 0px 5px 5px #00000048;
 }
 .about div p{
     font-family:roboto;
@@ -280,6 +293,8 @@ nav #signupbutn:hover{
     margin:0;
     padding:10px;
     line-height: 2;
+    box-shadow: 0px 5px 5px 5px #00000048;
+
 }
 .about p{
     font-family:roboto;
@@ -443,6 +458,9 @@ nav #signupbutn:hover{
      justify-content:center;
      width:100vw;
  }
+ #events iframe{
+     box-shadow: 0px 0px 5px 5px #00000048;
+ }
  #events .header h1{
     width:100vw;
     text-align:center;
@@ -528,30 +546,92 @@ nav #signupbutn:hover{
     cursor:pointer;
     text-decoration:none;
 }
- #education{
-     padding: 2%;
-     background-color:rgb(5, 5, 20)
- }
-#education h1{
-    font-family:STIX Two Math;
-    font-size: 45px;
-    border-bottom: 5px solid #9a0000;
-    text-align:center;
-    color: rgba(255, 255, 255, 0.836);
-    width:30vw;
-}
-#education p{
-    text-align:center;
-    color:rgba(255, 255, 255, 0.575);
-    font-size: 20px;
-    font-family:roboto;
-}
-#education .header{
+.competition{
     display:flex;
     flex-direction:row;
-    justify-content:center;
-    width:100%;
+    justify-content:space-around;
+    background: linear-gradient( rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.767) ), url('../img/competition.jpg'); background-size: cover; 
+    border-top:4px solid #132e58;
+
 }
+.competition .left{
+    width:40vw;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+
+}
+.competition .left h1{
+    padding-top:20px;
+    text-align:center;
+    font-family: STIX Two Math;
+    font-size: 40px;
+    color:rgba(255, 255, 255, 0.884);
+}
+.competition .left h4{
+    font-family:roboto;
+    font-size:17px;
+    color:rgba(255, 255, 255, 0.733);
+    font-weight:100;
+}
+.competition .right{
+    display:flex;
+    flex-direction:row;
+}
+.competition .right > section{
+    width:20vw;
+    margin:10px;
+}
+.competition .right header h4{
+    background-color:#0c1c36;
+    color:white;
+    text-align:center;
+    padding:10px;
+    font-family:nunito;
+    font-size:20px;
+    margin-bottom:0;
+    box-shadow: 0px 0px 5px 5px #00000048;
+}
+.competition .right .slc p{
+    background-color:#0c1c36;
+    color:rgba(255, 255, 255, 0.788);
+    padding:10px;
+    font-family:nunito;
+    font-size:1.8vh;
+    text-align:initial;
+    margin:0;
+
+}
+.competition .right section ul{
+    background-color:#132e58;
+    margin:0;
+    padding-top:15px;
+    padding-bottom:15px;
+    height:90vh;
+    overflow-y:auto;
+    overflow-x:wrap;
+    font-size:15px;
+    color:rgba(255, 255, 255, 0.685);
+}
+            /* width */
+            .competition .right section ul::-webkit-scrollbar {
+                width: 10px;
+                }
+    
+                /* Track */
+                .competition .right section ul::-webkit-scrollbar-track {
+                background: #0a1a33;
+                }
+    
+                /* Handle */
+                .competition .right section ul::-webkit-scrollbar-thumb {
+                background: #888;
+                }
+    
+                /* Handle on hover */
+                .competition .right section ul::-webkit-scrollbar-thumb:hover {
+                background: #555;
+                }
 }
 
 
