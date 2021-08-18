@@ -330,7 +330,9 @@ nav #signupbutn:hover{
 #contact .socials .fa-twitter{
     background-color:	#1DA1F2 !important;
 }
-
+#contact .socials .fa-facebook-f{
+    background-color:	#4267B2 !important;
+}
 #contact .socials .awd{
     display:flex;
     flex-direction:row;
@@ -1118,6 +1120,7 @@ color:#ffffffad;
     #contact .socials .fa-twitter{
         background-color:	#1DA1F2 !important;
     }
+
     #contact .socials .fa-facebook-f{
         background-color:	#4267B2 !important;
     }
