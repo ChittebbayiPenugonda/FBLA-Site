@@ -691,7 +691,8 @@ nav #signupbutn:hover{
     font-family: STIX Two Math;
     font-size: 40px;
     color:rgba(255, 255, 255, 0.884);
-    margin:0;
+    margin-top:0;
+    margin-bottom: 15px;
 }
 #signup .content{
     display:flex;
@@ -1486,7 +1487,8 @@ color:#ffffffad;
         font-family: STIX Two Math;
         font-size: 70px;
         color:rgba(255, 255, 255, 0.884);
-        margin:0;
+        margin-top:0;
+        margin-bottom: 15px;
     }
     #signup .content{
         display:flex;
