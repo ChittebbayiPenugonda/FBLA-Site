@@ -5,6 +5,7 @@
 
         @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Roboto:wght@300&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&family=Roboto:wght@300&family=STIX+Two+Math&display=swap');
+        @media only screen and (orientation:landscape) {   
             body{
                 background-color:#0a1a33;
                 margin-left:10px;
@@ -41,12 +42,14 @@
                 padding:20px;
                 color:rgba(255, 255, 255, 0.856);
                 font-family:STIX Two Math;
+                font-size: 30px;
             }
             .dt, .desc, .location, .signupgeniusbutn{
                 padding-left:20px;
                 padding-right:20px;
                 color:rgba(255, 255, 255, 0.849);
                 font-family:nunito;
+                font-size: 17.5px;
             }
 
 
@@ -70,7 +73,76 @@
             ::-webkit-scrollbar-thumb:hover {
             background: #555;
             }
+        }
+        @media only screen and (orientation:portrait) {  
+        body{
+                background-color:#0a1a33;
+                margin-left:10px;
+                margin-right:10px;
+                margin-top:0;
+            }
+            .event a{
+                padding:10px;
+                font-family:roboto;
+                background-color:  #27AE60;
+                color:white;
+                border-radius: 50px;
+                margin-top: 20px;
+                margin-left:20px;
+                font-size: 14px;
+                cursor:pointer;
+                text-decoration:none;
 
+            }
+            .event .signupgeniusbutn{
+                background-color:#F39C12 !important;
+            }
+            .location{
+                margin-bottom:50px;
+            }
+            .event{
+                background-color:#132e58;
+                padding-bottom: 49px;
+                margin-bottom: 30px;
+            }
+            .event h1{
+                margin:0;
+                background-color:#050d1a;
+                padding:20px;
+                color:rgba(255, 255, 255, 0.856);
+                font-family:STIX Two Math;
+                font-size: 40px;
+            }
+            .dt, .desc, .location, .signupgeniusbutn{
+                padding-left:20px;
+                padding-right:20px;
+                color:rgba(255, 255, 255, 0.849);
+                font-family:nunito;
+                font-size: 25px;
+            }
+
+
+
+            /* width */
+            ::-webkit-scrollbar {
+            width: 10px;
+            }
+
+            /* Track */
+            ::-webkit-scrollbar-track {
+            background: #0a1a33;
+            }
+
+            /* Handle */
+            ::-webkit-scrollbar-thumb {
+            background: #888;
+            }
+
+            /* Handle on hover */
+            ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+            }
+        }
         </style>
     </head>
     <body>
@@ -82,12 +154,41 @@
             <a style ="display:none"class="signupgeniusbutn" target="_blank" href="https://www.signupgenius.com/go/5080c44a5af23a2f85-backtoschool">Sign-Up Genius</a>
         </div>
 
-      <!--<div class="event">
+      <div class="event">
             <h1>School Supply Drive</h1>
             <p class="dt">Due Sep. 1, 2021</p>
-            <p class="desc">This event will be held virtually. It is a great time to gather information about South Forsyth FBLA and join our Organization!</p>
-            <p class="location"><b>Location: </b>Virtually</p>
+            <p class="desc">A great Service opportunity. Drop off these items:
+                <br>
+                - Rulers
+                <br>
+                - USB Drives
+                <br>
+                - Hand Sanitizer 
+                <br>
+                - Colored Pencils
+                <br>
+                - Safety scissors
+                <br>
+                - Index cards 3x5
+                <br>
+                - Index cards 4x6
+                <br>
+                - Pencil Sharpener
+                <br>
+                - Mechanical Pencils
+                <br>
+                - Pencil Pouches/Boxes
+
+            </p>
+            <p class="location"><b>Drop off at:
+                <br>
+                Mrs. Yonk's room (156)
+                <br>
+                Mr. Beckley's room (474)
+                <br>
+                Mrs. Moultrie's room (135)
+            </b>Virtually</p>
             <a style ="display:none"class="signupgeniusbutn" target="_blank" href="https://www.signupgenius.com/go/5080c44a5af23a2f85-backtoschool">Sign-Up Genius</a>
-        </div>-->
+        </div>
     </body>
 </html>

@@ -984,7 +984,7 @@ color:#ffffffad;
     .about h1{
         font-family:STIX Two Math;
         color:rgba(255, 255, 255, 0.901);
-        font-size: 45px;
+        font-size: 70px;
         position:relative;
         margin-bottom:0;
     
@@ -1029,7 +1029,7 @@ color:#ffffffad;
         color:white;
         text-align:center;
         font-family:nunito;
-        font-size: 20px;
+        font-size: 40px;
         padding:10px;
         margin-bottom: 0;
         margin-top: 20px !important;
@@ -1045,7 +1045,7 @@ color:#ffffffad;
     }
     .about div p{
         font-family:nunito;
-        font-size: 18px;
+        font-size: 30px;
         color:rgba(255, 255, 255, 0.801);
         margin:0;
         padding:10px;
@@ -1054,8 +1054,8 @@ color:#ffffffad;
     
     }
     .about p{
-        font-family:roboto;
-        font-size: 15px;
+        font-family:nunito;
+        font-size: 18px;
         color:rgba(0, 0, 0, 0.829);
         color:rgba(255, 255, 255, 0.603);
         position:relative;
@@ -1075,7 +1075,7 @@ color:#ffffffad;
         text-align: center;
         font-size: 70px;
         color:rgba(255, 255, 255, 0.829);
-        border-bottom: 5px solid #9a0000;
+        border-bottom: 5px solid #0a1a33;
         margin: auto;
         padding:10px;
     }
@@ -1174,7 +1174,7 @@ color:#ffffffad;
         color:rgba(255, 255, 255, 0.534);
         font-family: STIX Two Math;
         text-align: left;
-        font-size:60px;
+        font-size:70px;
         padding: 0px;
         margin: 15px;
         margin-top:40%;
@@ -1211,7 +1211,7 @@ color:#ffffffad;
          text-align: center;
          color: rgba(255, 255, 255, 0.493);
          font-family:nunito;
-         font-size: 15.7px;
+         font-size: 30px;
      }
     
      
@@ -1236,7 +1236,7 @@ color:#ffffffad;
         width:100vw;
         text-align:center;
         font-family: STIX Two Math;
-        font-size: 50px;
+        font-size: 70px;
         color:rgba(255, 255, 255, 0.884);
     
     }
@@ -1335,7 +1335,7 @@ color:#ffffffad;
         padding-top:20px;
         text-align:center;
         font-family: STIX Two Math;
-        font-size: 40px;
+        font-size: 70px;
         color:rgba(255, 255, 255, 0.884);
     }
     .competition .left p{
@@ -1446,7 +1446,7 @@ color:#ffffffad;
         padding-top:20px;
         text-align:center;
         font-family: STIX Two Math;
-        font-size: 45px;
+        font-size: 70px;
         color:rgba(255, 255, 255, 0.884);
     }
     #officers .officer{
@@ -1483,7 +1483,7 @@ color:#ffffffad;
         padding-top:20px;
         text-align:center;
         font-family: STIX Two Math;
-        font-size: 40px;
+        font-size: 70px;
         color:rgba(255, 255, 255, 0.884);
         margin:0;
     }
@@ -1498,15 +1498,18 @@ color:#ffffffad;
     #signup h4{
         color:rgba(255, 255, 255, 0.842);
         font-family:STIX Two Math;
-        font-size: 28px;
+        font-size: 40px;
         text-align:center;
         border-bottom: 5.2px solid #0a1a33;
         margin:0 auto;
     }
     #signup .desc > p{
-        color:rgba(255, 255, 255, 0.74);
         font-family:nunito;
-        font-size: 18px;
+        font-size: 30px;
+        color:rgba(255, 255, 255, 0.801);
+        margin:0;
+        padding:10px;
+        line-height: 1.75;
         text-align:center;
     }
     #signup .desc .wrapper{
@@ -1521,11 +1524,12 @@ color:#ffffffad;
         color:rgba(255, 255, 255, 0.795);
         font-family:nunito;
         padding: 10px;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
         background-color:#103570;
         border-radius: 50px;
         text-align:center;
+        font-size: 30px;
     }
     #signup .newsletter{
         display:flex;
@@ -1534,7 +1538,7 @@ color:#ffffffad;
     #signup form{
         display:flex;
         flex-direction:column;
-        width: 20vw;
+        width: 40vw;
         margin: 10px auto;
         padding: 5px;
     
@@ -1554,7 +1558,7 @@ color:#ffffffad;
         color:white !important;
         border:none;
         font-family:nunito;
-        font-size: 15px;
+        font-size: 30px;
         border-bottom: 3px solid #103570;
         background-color: rgba(0, 0, 0, 0.432);
     }
@@ -1563,14 +1567,15 @@ color:#ffffffad;
         color:rgba(255, 255, 255, 0.795);
         font-family:nunito;
         padding: 10px;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+
         background-color:#184792;
         border-radius: 50px;
         text-align:center;
         border:none;
-        margin-top:5px;
-        font-size: 16px;
+        margin-top:10px;
+        font-size: 30px;
         cursor:pointer;
         width: max-content;
         margin: 10px auto;
