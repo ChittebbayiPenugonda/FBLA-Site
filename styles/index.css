@@ -692,7 +692,7 @@ nav #signupbutn:hover{
     font-size: 40px;
     color:rgba(255, 255, 255, 0.884);
     margin-top:0;
-    margin-bottom: 15px;
+
 }
 #signup .content{
     display:flex;
@@ -1488,7 +1488,7 @@ color:#ffffffad;
         font-size: 70px;
         color:rgba(255, 255, 255, 0.884);
         margin-top:0;
-        margin-bottom: 15px;
+
     }
     #signup .content{
         display:flex;
