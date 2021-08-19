@@ -1395,7 +1395,7 @@ color:#ffffffad;
         height:50vh;
         overflow-y:auto;
         overflow-x:wrap;
-        font-size:20px;
+
         color:rgba(255, 255, 255, 0.685);
     
     }
@@ -1403,7 +1403,7 @@ color:#ffffffad;
         text-decoration:none;
         color:rgba(255, 255, 255, 0.904);
         font-family: nunito;
-        font-size:20px;
+        font-size:27.5px;
     }
     .competition .right section a:hover{
     
