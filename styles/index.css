@@ -1574,13 +1574,13 @@ color:#ffffffad;
         padding-left: 30px;
         padding-right: 30px;
         -webkit-appearance: none;
-        background-color:#184792;
-
+        background-color:red;
+        
         border-radius: 50px;
         text-align:center;
         border:none;
         margin-top:10px;
-        font-size: 30px;
+        font-size: 300px;
         cursor:pointer;
         width: max-content;
         margin: 10px auto;
